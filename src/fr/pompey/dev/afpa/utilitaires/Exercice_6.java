@@ -13,6 +13,7 @@ public class Exercice_6 {
             tabInt[i] = (int) (Math.random()*200-100);
 
         }
+        System.out.println(Arrays.toString(tabInt));
         TrierTableau.jsp(tabInt);
         System.out.println(Arrays.toString(tabInt));
     }

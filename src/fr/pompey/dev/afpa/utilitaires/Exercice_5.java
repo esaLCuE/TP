@@ -22,17 +22,17 @@ public class Exercice_5 {
         do {
             String rep = " ";
             int x = 0, y = 0;
-            while (x < 1 || x > 10) {
-                System.out.println("Choisissez une première valeur comprise entre 1 et 10.");
+            while (x < 1 || x > 9) {
+                System.out.println("Choisissez une première valeur comprise entre 1 et 9.");
                 x = sc.nextInt();
-                if (x < 1 || x > 10) {
+                if (x < 1 || x > 9) {
                     System.out.println("Veuillez entrer un entier valide !");
                 }
             }
-            while (y < 1 || y > 10) {
-                System.out.println("Choisissez une seconde valeur comprise entre 1 et 10.");
+            while (y < 1 || y > 9) {
+                System.out.println("Choisissez une seconde valeur comprise entre 1 et 9.");
                 y = sc.nextInt();
-                if (y < 1 || y > 10) {
+                if (y < 1 || y > 9) {
                     System.out.println("Veuillez entrer un entier valide !");
                 }
             }

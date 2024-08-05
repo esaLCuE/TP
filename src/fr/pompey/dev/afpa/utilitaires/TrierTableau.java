@@ -12,8 +12,7 @@ public class TrierTableau {
         if (sc.nextLine().equalsIgnoreCase("Oui")){
             croissant = false;
         }
-        if (croissant) {
-            for (int i = 1; (i < tabInt.length); i++) {
+        for (int i = 1; (i < tabInt.length); i++) {
             int j=i;
             int temp = tabInt[i];
             if (croissant) {
@@ -28,7 +27,6 @@ public class TrierTableau {
                 }
             }
             tabInt[j] = temp;
-            }
         }
     }
 }

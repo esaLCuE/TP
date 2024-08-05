@@ -14,17 +14,17 @@ public class Exercice_1 {
         int b = sc.nextInt();
         System.out.println("Entrez c entier");
         int c = sc.nextInt();
-        int x1;
-        int x2;
-        float disc = b*b - 4*a*c;
+        float x1;
+        float x2;
+        float disc = (b*b - 4*a*c);
         if (disc < 0) {
             System.out.println("Il n'y a pas de solutions réelle");
         } else if (disc == 0) {
-            x1 = -b/2*a ;
+            x1 = -b/(2*a) ;
             System.out.println("Il y a une seule solution : "+x1);
         } else {
-            x1 = (int) (-b-sqrt(disc))/2*a*c ;
-            x2 = (int) (-b+sqrt(disc))/2*a*c ;
+            x1 = (float) (-b-sqrt(disc))/(2*a) ;
+            x2 = (float) (-b+sqrt(disc))/(2*a) ;
             System.out.println("Il y a deux solutions réelles : "+x1+" et "+x2);
         }
 

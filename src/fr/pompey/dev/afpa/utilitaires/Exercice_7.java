@@ -37,7 +37,7 @@ public class Exercice_7 {
         nb1 = sc.nextInt();
         System.out.println("Choisir le second opérande");
         nb2 = sc.nextInt();
-        if (oper.equals("/")&&nb2==0) {
+        if (oper.equals("/") && nb2==0) {
             System.out.println("Opération invalide.");
             System.exit(0);
         } else {
